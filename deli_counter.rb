@@ -11,15 +11,8 @@ def line(katz_deli)
 end
 
 def take_a_number(other_deli,name)
-  other_deli<< name
-  i=0
-  while other_deli.size > i
-    puts "Welcome, #{name}. You are number #{i+1} in line."
-    i+=1
-
-  end
-  # line_array=[ "Welcome,"]
-  # other_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
-  # puts line_array.join
+  line_array=[ "Welcome,"]
+  other_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
+  puts line_array.join
 
 end
