@@ -11,6 +11,6 @@ def line(katz_deli)
 end
 
 def take_a_number(other_deli,name)
-  other_deli<< name
+  other_deli << name
 
 end
