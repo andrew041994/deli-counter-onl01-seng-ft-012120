@@ -19,3 +19,4 @@ def take_a_number(deli_array, name)
        puts "Welcome, #{name}. You are number #{deli_array.size} in line."
     end
 end
+
