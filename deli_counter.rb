@@ -24,7 +24,7 @@ def now_serving(deli_array)
   #binding.pry
     if deli_array.size > 0
       while deli_array.size > 0
-        print "Currently serving #{deli_array.first}."
+        puts "Currently serving #{deli_array.first}."
         deli_array.shift
       end
 
