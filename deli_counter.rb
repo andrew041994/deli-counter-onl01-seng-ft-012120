@@ -17,6 +17,6 @@ def take_a_number(other_deli,name)
       other_deli<<name
       puts "Welcome, #{other_deli[0]}. You are number 1 in line."
     else other_deli.size > 0
-      other_deli.each_with_index {|name,index| name==name puts "Welcome #{name}. You are number #{index+1}in line."}
+      other_deli.each_with_index {|name,index| puts "Welcome #{name}. You are number #{index+1}in line."}
     end
 end
