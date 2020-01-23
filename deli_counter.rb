@@ -21,14 +21,12 @@ def take_a_number(deli_array, name)
 end
 
 def now_serving(deli_array)
-  if deli_array.size == 0
-    puts "There is nobody waiting to be served!"
-
-  end
+    if deli_array.size == 0
+        puts "There is nobody waiting to be served!"
+    end
 
     until deli_array.size == 0
       puts "Currently serving #{deli_array[0]}."
-      #deli_array.shift
     end
     deli_array.shift
 end
