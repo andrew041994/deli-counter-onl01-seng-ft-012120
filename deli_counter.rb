@@ -10,11 +10,12 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(other_deli,name)
-    if other_deli.size==0
-      other_deli<<name
-      puts "Welcome, #{other_deli[0]}. You are number 1 in line."
+def take_a_number(deli_array, name)
+    if deli_array.size==0
+      deli_array << name
+      puts "Welcome, #{name}. You are number 1 in line."
     else
-      other_deli.each_with_index {|name,index| puts "Welcome #{name}. You are number #{index+1} in line."}
+      deli_array << name
+       puts "Welcome #{name}. You are number #{index+1} in line."
     end
 end
