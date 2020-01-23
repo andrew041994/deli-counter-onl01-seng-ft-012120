@@ -27,7 +27,7 @@ def now_serving(deli_array)
   end
 
     until deli_array.size == 0
-      puts "Currently serving #{deli_array[0]}."
+      puts "Currently serving #{deli_array}."
       deli_array.shift
     end
 end
