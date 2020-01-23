@@ -13,7 +13,7 @@ end
 def take_a_number(other_deli,name)
   other_deli<< name
   i=0
-  while i < other_deli.size
+  while other_deli.size > i
     puts "Welcome, #{name}. You are number #{i+1} in line."
     i+=1
 
