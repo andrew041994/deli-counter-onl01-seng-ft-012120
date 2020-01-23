@@ -10,10 +10,10 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli,name)
-  katz_deli << name
+def take_a_number(other_deli,name)
+  other_deli<< name
   line_array=[ "Welcome,"]
-  katz_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
+  other_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
   puts line_array.join
 
 end
