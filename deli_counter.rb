@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def line(katz_deli)
   if katz_deli.size < 1
@@ -21,6 +21,7 @@ def take_a_number(deli_array, name)
 end
 
 def now_serving(deli_array)
+  binding.pry
     if deli_array.size == 0
         puts "There is nobody waiting to be served!"
       else
