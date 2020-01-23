@@ -19,3 +19,21 @@ def take_a_number(deli_array, name)
        puts "Welcome, #{name}. You are number #{deli_array.size} in line."
     end
 end
+
+def now_serving(deli_array)
+  
+    until deli_array.size == 0
+      puts "Currently serving #{deli_array[0]}."
+      deli_array.shift      
+    end
+end
+
+
+
+
+
+
+
+
+
+
