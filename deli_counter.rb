@@ -12,8 +12,14 @@ end
 
 def take_a_number(other_deli,name)
   other_deli<< name
-  line_array=[ "Welcome,"]
-  other_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
-  puts line_array.join
+  i=0
+  while i < other_deli.size
+    puts "Welcome, #{name}. You are number #{i+1} in line."
+    i+=1
+    
+  end
+  # line_array=[ "Welcome,"]
+  # other_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
+  # puts line_array.join
 
 end
