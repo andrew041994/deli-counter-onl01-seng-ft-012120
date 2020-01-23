@@ -14,7 +14,7 @@ def take_a_number(other_deli,name)
   if other_deli.size == 0
     other_deli << name
   else
-    other_deli.each_with_index { |name,index| puts "Welcome, #{name}. You are number #{index+1} in line. "
+    other_deli.each_with_index { |name,index| puts "Welcome, #{name}. You are number #{index+1} in line. "}
 
   end
 
