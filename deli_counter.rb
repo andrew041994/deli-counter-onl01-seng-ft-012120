@@ -12,5 +12,6 @@ end
 
 def take_a_number(other_deli,name)
   other_deli << name
+  puts other_deli
 
 end
