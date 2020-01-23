@@ -14,6 +14,6 @@ def take_a_number(katz_deli,name)
   katz_deli << name
   line_array=[ "Welcome,"]
   katz_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
-  puts line_array.join
+  # puts line_array.join
 
 end
