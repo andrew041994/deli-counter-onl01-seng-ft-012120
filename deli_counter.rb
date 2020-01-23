@@ -16,6 +16,6 @@ def take_a_number(deli_array, name)
       puts "Welcome, #{name}. You are number 1 in line."
     else
       deli_array << name
-       puts "Welcome #{name}. You are number #{index+1} in line."
+       puts "Welcome #{name}. You are number #{deli_array.size} in line."
     end
 end
