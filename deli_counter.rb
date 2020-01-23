@@ -12,5 +12,6 @@ end
 
 def take_a_number(other_deli,name)
   other_deli << name
+  puts "Welcome, #{other_deli[0]}. You are number 1 in line."
 
 end
