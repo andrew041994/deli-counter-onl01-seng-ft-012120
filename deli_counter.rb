@@ -16,7 +16,7 @@ def take_a_number(other_deli,name)
   while i < other_deli.size
     puts "Welcome, #{name}. You are number #{i+1} in line."
     i+=1
-    
+
   end
   # line_array=[ "Welcome,"]
   # other_deli.each_with_index { |name,index| line_array<< " #{name}. You are number #{index+1} in line."}
