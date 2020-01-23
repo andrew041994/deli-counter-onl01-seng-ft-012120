@@ -21,19 +21,9 @@ def take_a_number(deli_array, name)
 end
 
 def now_serving(deli_array)
-  
+
     until deli_array.size == 0
       puts "Currently serving #{deli_array[0]}."
-      deli_array.shift      
+      deli_array.shift
     end
 end
-
-
-
-
-
-
-
-
-
-
