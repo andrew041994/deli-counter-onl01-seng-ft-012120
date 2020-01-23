@@ -11,7 +11,11 @@ def line(katz_deli)
 end
 
 def take_a_number(other_deli,name)
-  other_deli << name
-  puts other_deli
+  if other_deli.size == 0
+    other_deli << name
+  else
+    other_deli.each_with_index { |name,index| puts "Welcome, #{name}. You are number #{index+1} in line. "
+
+  end
 
 end
